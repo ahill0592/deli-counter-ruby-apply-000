@@ -10,8 +10,10 @@ end
 puts "The line is #{linearray.join(" ")}"
 
 end
-end
 
+def take_a_number(katz_deli, name)
+  
+  
 
   
   
