@@ -5,7 +5,9 @@ def line(linepeople)
 if linearray.size == 0
   puts "The line is currently empty"
 else
-  linepeople.each.with_index(1) do |people, index| linearray << 
+  linepeople.each.with_index(1) do |people, index| linearray << "#{index}. #{people}"
+end
+puts linearray.join("")
 
   
   
