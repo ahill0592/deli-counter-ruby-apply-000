@@ -24,7 +24,7 @@ def now_servingz(katz_deli)
     katz_deli.shift
   end
 
-def 
+end
   
 
   
