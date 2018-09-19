@@ -13,14 +13,14 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  puts "Welcome, #{name}, you are number #{katz_deli.length}"
+  puts "Welcome, #{name}, you are number #{katz_deli.length}."
 end
 
 def now_servingz(katz_deli)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
   else  
-    puts katz_deli[0]
+    puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
   end
 
