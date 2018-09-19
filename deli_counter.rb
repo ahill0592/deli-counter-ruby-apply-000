@@ -21,7 +21,10 @@ def now_servingz(katz_deli)
     puts "There is nobody waiting to be served!"
   else  
     puts katz_deli[0]
-    katz_deli.delete
+    katz_deli.shift
+  end
+
+def 
   
 
   
