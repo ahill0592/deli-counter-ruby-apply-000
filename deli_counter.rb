@@ -7,11 +7,14 @@ if linearray.size == 0
 else
   linepeople.each.with_index(1) do |people, index| linearray << "#{index}. #{people}"
 end
-puts "The line is #{linearray.join(" ")}"
+puts "The line is currently: #{linearray.join(" ")}"
 
 end
 
 def take_a_number(katz_deli, name)
+  katz_deli << name
+end
+  
   
   
 
