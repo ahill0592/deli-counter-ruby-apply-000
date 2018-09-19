@@ -7,7 +7,7 @@ if linearray.size == 0
 else
   linepeople.each.with_index(0) do |people, index| linearray.push("#{index}. #{people}")
 end
-puts "The line is currently: #{linearray.join(" ")}"
+puts "The line is: #{linearray.join(" ")}"
 
 end
 
