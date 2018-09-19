@@ -8,7 +8,7 @@ else
   linepeople.each.with_index(1) do |people, index| linearray.push("#{index}. #{people}")
 end
 puts "The line is currently: #{linearray.join(" ")}
-
+end 
 end
 
 def take_a_number(katz_deli, name)
