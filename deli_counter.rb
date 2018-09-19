@@ -7,9 +7,9 @@ if linepeople.size == 0
 else
   linepeople.each.with_index(1) do |people, index| linearray.push("#{index}. #{people}")
 end
-puts "The line is currently: #{linearray.join(" ")}
+puts "The line is currently: #{linearray.join(" ")}"
 end 
-end
+end 
 
 def take_a_number(katz_deli, name)
   katz_deli << name
