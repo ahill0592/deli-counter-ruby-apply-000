@@ -9,7 +9,7 @@ else
 end
 puts "The line is currently: #{linearray.join(" ")}"
 end 
-end 
+
 
 def take_a_number(katz_deli, name)
   katz_deli << name
